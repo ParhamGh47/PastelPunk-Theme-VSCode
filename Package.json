@@ -2,14 +2,24 @@
   "name": "pastelpunk",
   "displayName": "PastelPunk",
   "description": "A dark theme for VS Code with pastel colors, cyberpunk atmosphere, and a celestial touch.",
-  "version": "1.0.0",
-  "publisher": "Parham Ghafourian",
+  "version": "1.1.0",
+  "publisher": "parhamgh47",
   "engines": {
     "vscode": "^1.50.0"
   },
+  "files": [
+  "themes",
+  "icon.png",
+  "README.md"
+],
+  "icon": "icon.png",
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParhamGh47/PastelPunk-Theme-VSCode"
+  },
   "contributes": {
     "themes": [
       {
@@ -18,5 +28,14 @@
         "path": "./themes/PastelPunk-color-theme.json"
       }
     ]
-  }
+  },
+  "keywords": [
+  "theme",
+  "pastel",
+  "cyberpunk",
+  "dark theme",
+  "vscode-theme",
+  "celestial"
+]
+
 }
