@@ -3,12 +3,11 @@
   "name": "PastelPunk",
   "type": "dark",
   "colors": {
-    // === EDITOR ===
     "editor.background": "#12171e",
     "editor.foreground": "#e0e6f1",
     "editorCursor.foreground": "#ff9a9a",
     "editorLineNumber.foreground": "#EFB495",
-    "editorLineNumber.activeForeground": "#FF8080",
+    "editorLineNumber.activeForeground": "#f36969",
     "editor.selectionBackground": "#3a4f70d4",
     "editor.selectionHighlightBackground": "#507e96b4",
     "editor.selectionHighlightBorder": "#49667a",
@@ -24,7 +23,6 @@
     "editorBracketHighlight.foreground6": "#ffc8a2",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff6767",
 
-    // === TABS & GROUPS ===
     "editorGroup.border": "#384959",
     "editorGroup.dropBackground": "#506a7a77",
     "editorGroupHeader.tabsBackground": "#1f3044",
@@ -38,18 +36,16 @@
     "tab.inactiveForeground": "#a7bfd2",
     "tab.hoverForeground": "#ffc0e8",
 
-    // === PANELS ===
-    "panel.background": "#1c2a3f",
+    "panel.background": "#12171e",
     "panel.border": "#456381",
-    "panelTitle.activeForeground": "#e0e6f1",
-    "panelTitle.activeBorder": "#459c8b",
-    "panelTitle.inactiveForeground": "#bbd6eb",
+    "panelTitle.activeForeground": "#ff7e98",
+    "panelTitle.activeBorder": "#7ff9e4",
+    "panelTitle.inactiveForeground": "#a7bfd2",
 
-    // === STATUS BAR & TITLE BAR ===
-    "titleBar.activeBackground": "#1e1412",
+    "titleBar.activeBackground": "#12171e",
     "titleBar.activeForeground": "#e0f1ff",
     "titleBar.border": "#456381",
-    "statusBar.background": "#1d2c45",
+    "statusBar.background": "#1c2a3f",
     "statusBar.foreground": "#b9d9ff",
     "statusBarItem.hoverBackground": "#29415c",
     "statusBarItem.activeBackground": "#3a5873",
@@ -57,7 +53,6 @@
     "statusBarItem.remoteBackground": "#459c8b",
     "statusBarItem.remoteHoverBackground": "#384959",
 
-    // === SIDEBAR & ACTIVITY BAR ===
     "activityBar.background": "#121c28",
     "activityBar.foreground": "#ddecff",
     "activityBar.activeBorder": "#459c8b",
@@ -71,7 +66,6 @@
     "sideBarTitle.foreground": "#b9d9ff",
     "sideBarTitle.border": "#456381",
 
-    // === EXPLORER ===
     "list.hoverBackground": "#2b3c50",
     "list.hoverForeground": "#ffffff",
     "list.activeSelectionBackground": "#3a4f70d4",
@@ -82,17 +76,14 @@
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#7ff9e4",
 
-    // === TOOLBAR ===
     "toolbar.hoverBackground": "#3d5570",
     "toolbar.activeBackground": "#507083",
 
-    // === SCROLLBAR ===
     "scrollbar.shadow": "#00000000",
     "scrollbarSlider.background": "#5b6c7e80",
     "scrollbarSlider.hoverBackground": "#6b8094bb",
     "scrollbarSlider.activeBackground": "#459c8b",
 
-    // === INPUT & BUTTONS ===
     "input.background": "#2d4355",
     "input.foreground": "#ffffff",
     "input.border": "#526985",
@@ -100,27 +91,38 @@
     "button.background": "#7ff9e4",
     "button.foreground": "#12171e",
     "button.hoverBackground": "#62dfc5",
+    "button.secondaryBackground": "#ff9a9a",
+    "button.secondaryForeground": "#12171e",
+    "button.secondaryHoverBackground": "#ff6060",
     "checkbox.background": "#459c8b",
     "checkbox.border": "#ff9a9a",
     "focusBorder": "#459c8b",
 
-    // === MENU BAR ===
-    "menubar.selectionBackground": "#459c8b",
+    "menu.background": "#12171e",
+    "menu.foreground": "#e0e6f1",
+    "menu.selectionBackground": "#3a4f70d4",
+    "menu.selectionForeground": "#ffffff",
+    "menu.separatorBackground": "#456381",
+    "menubar.selectionBackground": "#3a4f70d4",
+    "menubar.selectionForeground": "#ffffff",
+    "notifications.background": "#12171e",
+    "notifications.foreground": "#e0e6f1",
+    "notifications.border": "#456381",
+    "notificationsErrorIcon.foreground": "#ff6060",
+    "notificationsWarningIcon.foreground": "#ffce96",
+    "notificationsInfoIcon.foreground": "#7ff9e4",
 
-    // === PROGRESS, BADGES & PROFILE ===
     "progressBar.background": "#ff9a9a",
     "profileBadge.background": "#7ff9e4",
     "badge.background": "#ff9a9a",
     "badge.foreground": "#12171e",
 
-    // === TEXT ELEMENTS ===
     "foreground": "#e0e6f1",
     "textLink.foreground": "#24e4c1",
     "textLink.activeForeground": "#79ffe6",
     "textSeparator.foreground": "#7ff9e4",
     "descriptionForeground": "#b1c0d1",
 
-    // === TERMINAL ===
     "terminal.background": "#12171e",
     "terminal.foreground": "#e0e6f1",
     "terminal.ansiBlack": "#252525",
@@ -140,21 +142,17 @@
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightYellow": "#fff3d1",
 
-    // === MENU ===
-    "menu.background": "#1c2a3f",
-    "menu.foreground": "#e0e6f1",
-    "menu.selectionBackground": "#3a4f70d4",
-    "menu.selectionForeground": "#ffffff",
-    "menu.separatorBackground": "#456381",
+    "quickInput.background": "#12171e",
+    "quickInput.foreground": "#e0e6f1",
+    "pickerGroup.foreground": "#ff7e98",
+    "pickerGroup.border": "#7ff9e4",
 
-    // === WELCOME PAGE ===
     "welcomePage.background": "#12171e",
     "welcomePage.progress.background": "#384959",
     "welcomePage.progress.foreground": "#ff9a9a",
     "welcomePage.tileBackground": "#203049",
     "welcomePage.tileHoverBackground": "#2e4358",
 
-    // === SETTINGS PAGE ===
     "settings.headerForeground": "#e0e6f1",
     "settings.modifiedItemIndicator": "#ff9a9a",
     "settings.dropdownBackground": "#2d4355",
